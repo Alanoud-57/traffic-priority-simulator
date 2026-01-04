@@ -45,4 +45,4 @@ Vehicles face delays due to inefficient prioritization. Drivers lack visual guid
 4. Test simulation scenarios (Testing folder).  
 5. Document progress in GitHub README.  
 
-(woekplan.md/.)[work plan] :
+[work plan](./woekplan.md) :
