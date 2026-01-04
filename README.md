@@ -1,24 +1,47 @@
-# traffic-priority-simulator
-simulation-based -traffic-priority-simulator
+# Traffic Priority Simulator
 
-## Project Overview
-A smart traffic priority system simulation that identifies available and unavailable spaces on the road and prioritizes vehicles arriving earlier.  
-The system aims to improve traffic flow, reduce congestion, and optimize vehicle movement. Designed for traffic management and integration with monitoring systems.
+## 1.1 Introduction
+The Traffic Priority Simulator is a simulation-based system designed to manage road traffic efficiently. It visualizes road spaces and assigns priority to vehicles based on their arrival, helping reduce congestion.
 
-## Features
-- Highlights available road spaces (green) and unavailable spaces (red)
-- Prioritizes vehicles based on arrival
-- Simulates realistic traffic scenarios
-- Future integration with traffic monitoring systems
-- Demonstrates understanding of software engineering processes
+## 1.2 Motivation
+Urban traffic congestion causes delays and inefficiency. Current systems do not provide real-time visual guidance for drivers, and there is a need for a smart system to manage road spaces effectively.
 
-## Purpose
-- Solve traffic congestion by prioritizing vehicle movement efficiently
-- Showcase skills in software engineering
-- Demonstrate understanding of requirements, design, testing, and implementation
-- Provide a clear simulation for traffic priority management
+## 1.3 Problem Statement
+Vehicles face delays due to inefficient prioritization. Drivers lack visual guidance for available spaces and correct order, leading to traffic jams and confusion. This project addresses these challenges with a simulation-based solution.
 
-## Future Enhancements
-- Integrate with navigation apps like Google Maps
-- Add real-time traffic updates
-- Expand system to handle multiple intersections simultaneously
+## 1.4 Project Objectives
+- Visualize available and unavailable road spaces.  
+- Assign priority to vehicles based on arrival time.  
+- Update the display in real-time during simulation.  
+- Provide a framework for analyzing traffic flow.  
+
+## 1.5 Project Scope
+- Focused on *simulation only*, not a real-time system.  
+- Database storage is *not required at this stage*.  
+- Demonstrates software engineering skills and traffic management concepts.  
+
+## 1.6 Proposed Solution
+- Capture road layout and vehicle positions.  
+- Assign priority to vehicles based on arrival time.  
+- Display available spaces (green) and unavailable spaces (red).  
+- Log traffic violations for future analysis (optional).  
+
+## 1.7 Project Contribution
+- Showcases skills in *software engineering, system design, and project management*.  
+- Provides a practical simulation framework for understanding traffic prioritization.  
+
+## 1.8 Project Organization
+- *Repository Structure*:
+  - requirements/ → Functional & Non-Functional + Hardware + Software requirements  
+  - design/ → User view, system flow, diagrams (UML, flowcharts)  
+  - implementation/ → Simulation code (to be added)  
+  - testing/ → Test cases and simulation results  
+- README files in each folder explain the contents clearly.  
+
+### 1.9.1 Milestones & Deliverables
+1. Define project requirements and objectives (Requirements folder).  
+2. Design system structure and user view (Design folder).  
+3. Implement simulation code (Implementation folder).  
+4. Test simulation scenarios (Testing folder).  
+5. Document progress in GitHub README.  
+
