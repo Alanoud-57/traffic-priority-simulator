@@ -1,1 +1,99 @@
+                                    Functional Requirements – Traffic Priority Simulator
 
+1. System Startup
+	•	The system shall start the traffic simulation automatically when launched.
+
+⸻
+
+2. Route Selection
+	•	The user shall select a desired route or destination before starting the simulation.
+	•	Future Scope: Integration with Google Maps to determine real locations and calculate priority (not implemented).
+
+⸻
+
+3. Pre-Simulation Settings (Simulation Mode)
+	•	The system shall allow the user to select the road type (Short Route or General Route).
+	•	The system shall allow setting an estimated time of arrival (ETA) for simulation analysis.
+
+⸻
+
+4. Green Path Movement
+	•	Vehicles shall move only through green squares based on calculated priority.
+
+⸻
+
+5. Yellow Path Waiting
+	•	Vehicles shall stop at yellow squares until they become green.
+
+⸻
+
+6. Red Path Restriction
+	•	Red squares shall represent occupied road spaces by other vehicles.
+	•	Red squares shall not turn green while occupied.
+
+⸻
+
+7. Real-Time Simulation Updates
+	•	The system shall dynamically update square colors (green, yellow, red) based on vehicle movement and priority.
+
+⸻
+
+8. Automatic Priority Calculation
+	•	The system shall automatically calculate vehicle priority when multiple vehicles arrive simultaneously.
+
+⸻
+
+9. Event Logging (System-Internal)
+	•	The system shall internally log simulation events, including:
+	•	Vehicle entering a square
+	•	Waiting at yellow squares
+	•	Priority decisions
+	•	Arrival at destination
+	•	Logs shall not be visible to the user.
+
+⸻
+
+10. Red-Square Violation Counter
+	•	The system shall count and record any attempt to enter a red square as a violation.
+
+⸻
+
+11. Visual Road Status Display
+	•	The system shall visually display road status using green and red indicators.
+	•	The user shall observe traffic behavior without interacting with the system.
+
+⸻
+
+12. Elapsed Travel Time
+	•	The system shall calculate the total travel time for each vehicle.
+
+⸻
+
+13. Estimated Time of Arrival (ETA)
+	•	The system shall provide an estimated arrival time before starting the simulation.
+
+⸻
+
+14. Speed Recommendation Based on Traffic Density
+	•	The system shall recommend an appropriate vehicle speed based on traffic congestion.
+	•	Speed recommendations shall vary according to the number of red and green squares.
+	•	Speed recommendations are advisory and applied only within the simulation.
+
+⸻
+
+15. Emergency Priority Mode (Simulation Only)
+	•	The system shall support an emergency priority mode for high-priority vehicles within the simulation.
+	•	When activated, the system shall recalculate priorities to allow faster route clearance.
+	•	This mode is for analytical and simulation purposes only.
+
+⸻
+
+16. HUD Display on Front Windshield
+	•	The system shall project simulation visuals onto the front windshield (HUD).
+	•	The system shall be compatible with vehicles without touchscreen displays.
+	•	The entire display shall remain virtual and simulation-based.
+
+⸻
+
+17. Algorithm Implementation Note
+	•	The system may use Depth-First Search (DFS) or tree-based search algorithms to determine paths and priorities.
