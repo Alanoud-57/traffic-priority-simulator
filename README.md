@@ -84,7 +84,7 @@ Each folder contains a README file explaining its contents.
 
 10. Plan and Gantt Chart
 
-The project schedule, milestones, and task dependencies are documented in [## 10 work plan](./woekplan.md) :
+The project schedule, milestones, and task dependencies are documented in [work plan](./woekplan.md) :
  using a Gantt chart to track progress throughout the project lifecycle.
 
 ⸻
