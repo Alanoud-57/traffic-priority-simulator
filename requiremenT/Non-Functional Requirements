@@ -1,1 +1,46 @@
+Non-Functional Requirements – Traffic Priority Simulator
+	1.	Performance
+* The system must update the display of road spaces (green, yellow, red) in real-time with minimal delay.
+* Simulation should run smoothly for up to 20 vehicles simultaneously.
 
+———
+	2.	Reliability
+* The system must accurately calculate vehicle priorities and path assignments at all times.
+* All events and changes in the simulation (vehicle movements, square color changes) must be logged consistently without errors.
+
+———
+	3.	Usability
+* The HUD (Head-Up Display) projection on the car’s front windshield should clearly show green and red squares.
+* Users should understand traffic flow at a glance without needing additional instructions.
+
+———
+	4.	Scalability
+* The system should handle a variable number of vehicles: minimum 2 vehicles, maximum 20 vehicles.
+* Capable of managing more complex road layouts in future versions.
+
+———
+	5.	Maintainability
+* Code should be modular, clean, and well-documented for easy future updates.
+* README and folder structure should clearly explain each component of the project.
+
+———
+	6.	Portability
+* The simulation should run on standard desktops or laptops without requiring specialized hardware.
+* Compatible with common operating systems (Windows, macOS, Linux).
+
+———
+	7.	Safety (Simulation-Only)
+* The system is fully virtual; users only observe the results on the HUD.
+* No real-world vehicle control is possible.
+
+———
+	8.	Simulation Accuracy
+* Vehicle priorities, path decisions, and color updates must reflect realistic traffic flow scenarios in the simulation.
+
+———
+	9.	Error Logging
+* All unexpected actions or anomalies in the simulation must be recorded internally for debugging or analysis.
+
+———
+	10.	Resource Usage
+* The simulation should run efficiently without consuming excessive system memory or CPU, even at maximum vehicle count (20 vehicles).
